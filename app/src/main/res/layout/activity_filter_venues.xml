@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F9F9"
+    android:fitsSystemWindows="true"
+    tools:context="ovenues.com.ovenue.VenuesSearchFilter">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            app:contentInsetStartWithNavigation="0dp"
+            app:theme="@style/AppTheme.PopupOverlay" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_close"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center|left"
+                    android:scaleType="fitXY"
+                    android:padding="5dp"
+                    app:srcCompat="@drawable/ic_close_light" />
+
+
+
+                <ovenues.com.ovenue.customviews.UserTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center|left"
+                    android:layout_gravity="left|center"
+                    android:padding="5dp"
+                    android:tag="300"
+                    android:text="Filter Venue"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp" />
+
+                <ovenues.com.ovenue.customviews.UserTextView
+                    android:id="@+id/tv_clear_filter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center|right"
+                    android:layout_gravity="right|center"
+                    android:padding="5dp"
+                    android:layout_marginEnd="3dp"
+                    android:tag="300"
+                    android:text="Clear"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="15sp" />
+
+                <ovenues.com.ovenue.customviews.UserTextView
+                    android:id="@+id/tv_apply"
+                    android:layout_marginEnd="10dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_gravity="center|right"
+                    android:padding="5dp"
+                    android:tag="300"
+                    android:text="Apply"
+                    android:background="@drawable/rounded_corner_orange_white_borde"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
+        android:textColorHint="@color/black">
+
+
+        <AutoCompleteTextView
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10"
+            android:tag="100"
+            android:gravity="left|center"
+            android:layout_gravity="left|center"
+            android:padding="8dp"
+            android:drawablePadding="5dp"
+            android:textSize="15sp"
+            android:background="@drawable/small_rounded_corner_borde"
+            android:focusable="true"
+            android:maxLength="50"
+            android:lines="1"
+            android:hint="Choose Your Location"
+            android:drawableLeft="@drawable/ic_map_grey_small"
+            android:textColorHint="#434343"
+            android:textColor="@color/black"
+            android:id="@+id/et_city_venue" />
+
+
+       <!-- <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:completionThreshold="1"
+            android:ems="10"
+            android:tag="100"
+            android:gravity="left|center"
+            android:layout_gravity="left|center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="20dp"
+            android:textSize="21sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rounded_corner_orange_borde"
+            android:focusable="true"
+            android:maxLength="50"
+            android:lines="1"
+            android:hint="Enter City"
+            android:drawableRight="@drawable/ic_map_gray"
+            android:textColor="@color/black"
+            android:id="@+id/et_city_venue" />-->
+
+    </android.support.design.widget.TextInputLayout>
+
+        <ovenues.com.ovenue.customviews.UserTextView
+            android:id="@+id/tv_guestCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:tag="300"
+            android:text="Guest Count"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+
+        <com.appyvet.rangebar.RangeBar
+            xmlns:custom="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/rangeBar_Guest"
+            custom:selectorSize="10dp"
+            custom:rangeBar="false"
+            android:layout_width="match_parent"
+            custom:pinColor="#434343"
+            custom:textColor="@color/white"
+            custom:pinMaxFont="10dp"
+            custom:pinMinFont="5dp"
+            custom:connectingLineColor="@color/colorAccent"
+            custom:rangeBarColor="#E0E2E2"
+            custom:tickColor="#757576"
+            custom:tickHeight="1dp"
+            custom:selectorColor="@color/colorAccent"
+            custom:temporaryPins="true"
+            android:layout_height="65dp"
+            custom:tickStart="0"
+            custom:tickInterval="500"
+            custom:tickEnd="5000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+
+        <ovenues.com.ovenue.customviews.UserTextView
+            android:id="@+id/tv_priceRange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:padding="5dp"
+            android:tag="300"
+            android:text="Budget Range"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <com.appyvet.rangebar.RangeBar
+            xmlns:custom="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/rangeBar_Price"
+            custom:selectorSize="10dp"
+            custom:rangeBar="false"
+            android:layout_width="match_parent"
+            custom:pinColor="#434343"
+            custom:textColor="@color/white"
+            custom:pinMaxFont="10dp"
+            custom:pinMinFont="5dp"
+            custom:connectingLineColor="@color/colorAccent"
+            custom:rangeBarColor="#E0E2E2"
+            custom:tickColor="#757576"
+            custom:tickHeight="1dp"
+            custom:selectorColor="@color/colorAccent"
+            custom:temporaryPins="true"
+            android:layout_height="65dp"
+            custom:tickStart="0"
+            custom:tickInterval="5000"
+            custom:tickEnd="50000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+
+
+
+
+        <ovenues.com.ovenue.customviews.UserTextView
+            android:id="@+id/tv_eventType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:tag="300"
+            android:text="Event Type "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/small_rounded_corner_borde"
+            android:id="@+id/sp_eventType"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <ovenues.com.ovenue.customviews.UserTextView
+            android:id="@+id/tv_venueType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:tag="300"
+            android:text="Venue Type "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/small_rounded_corner_borde"
+            android:id="@+id/sp_venueType"
+            android:drawSelectorOnTop="true"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+
+        <ovenues.com.ovenue.customviews.UserTextView
+            android:tag="300"
+            android:text="Amenities"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="#000000"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="15dp"
+            android:textSize="20sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:visibility="gone"
+            android:background="#212121"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" />
+        <ovenues.com.ovenue.utils.ExpandableHeightsGridView
+            android:id="@+id/grid_amenities"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="3"
+            android:horizontalSpacing="5dp"
+            android:verticalSpacing="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp">
+
+        </ovenues.com.ovenue.utils.ExpandableHeightsGridView>
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

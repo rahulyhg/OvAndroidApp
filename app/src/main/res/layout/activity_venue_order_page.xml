@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:layout_marginBottom="10dp"
+        android:background="#00000000">
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                android:orientation="vertical"
+                android:scaleType="centerCrop"
+                app:layout_collapseMode="parallax">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="left"
+                            android:gravity="left"
+                            android:layout_marginStart="10dp"
+                            android:orientation="vertical">
+
+                            <ovenues.com.ovenue.customviews.UserTextView
+                                android:id="@+id/tv_venue_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_gravity="center|left"
+                                android:gravity="center|left"
+                                android:layout_marginTop="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:padding="1dp"
+                                android:tag="100"
+                                android:text="Venue Name"
+                                android:textColor="#000000"
+                                android:textSize="15sp" />
+
+                            <ovenues.com.ovenue.customviews.UserTextView
+                                android:id="@+id/tv_venue_address"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_gravity="center|left"
+                                android:gravity="center|left"
+                                android:padding="1dp"
+                                android:tag="100"
+                                android:text="Venue Name"
+                                android:textColor="@color/md_grey_700"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp">
+
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content">
+
+                            <ovenues.com.ovenue.customviews.UserEditText
+                                android:id="@+id/et_date"
+                                android:imeOptions="actionNext"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/rounded_corner_orange_borde"
+                                android:focusable="false"
+                                android:focusableInTouchMode="true"
+                                android:gravity="center"
+                                android:hint="Date"
+                                android:inputType="date"
+                                android:padding="10dp"
+                                android:tag="100"
+                                android:textColor="@color/black"
+                                android:textSize="19sp" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ovenues.com.ovenue.customviews.UserTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:tag="100"
+                                android:text="Time"
+                                android:visibility="gone"
+                                android:textColor="@color/md_grey_400"
+                                android:textSize="12sp" />
+
+                                <android.support.v7.widget.AppCompatSpinner
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/rounded_corner_orange_borde"
+                                    android:id="@+id/sp_timeslot"
+                                    android:layout_gravity="left|center"
+                                    android:gravity="left|center"
+                                    android:paddingBottom="10dp"
+                                    android:layout_marginStart="2dp"
+                                    android:layout_marginEnd="2dp"/>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_height="match_parent">
+
+                        <ovenues.com.ovenue.customviews.UserEditText
+                            android:id="@+id/et_guestCount"
+                            android:imeOptions="actionGo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/rounded_corner_orange_borde"
+                            android:hint="Guest Count"
+                            android:singleLine="true"
+                            android:maxLines="1"
+                            android:maxLength="5"
+                            android:gravity="left|center"
+                            android:inputType="number"
+                            android:tag="100"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:padding="10dp"/>
+
+                    </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:layout_marginTop="10dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <eu.long1.spacetablayout.SpaceTabLayout
+        android:id="@+id/spaceTabLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:button_color="@color/colorAccent"
+        app:icon_one="@drawable/ic_pricingcopy"
+        app:icon_two="@drawable/ic_foodmenucopy"
+        app:icon_three="@drawable/ic_food"
+        app:icon_four="@drawable/ic_beverages"
+        app:icon_five="@drawable/ic_servicescopy"
+        app:layout_behavior="eu.long1.spacetablayout.SpaceTabLayoutBehavior"
+        app:number_of_tabs="five"
+        app:starting_position="one"
+        app:tab_color="@color/colorPrimary"
+        app:text_color="#61FFFFFF"
+        app:text_one="Pricing"
+        app:text_two="Foods"
+        app:text_three="Beverages"/>
+
+
+</android.support.design.widget.CoordinatorLayout>

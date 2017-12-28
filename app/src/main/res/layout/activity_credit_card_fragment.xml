@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent">
+
+
+    <fragment
+        android:id="@+id/frg_pay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="movile.com.creditcardguide.CreditCardFragment"
+        app:labelOwner="@string/label_owner"
+        app:labelDateExp="@string/valid_thru"
+        app:labelButtonPay="Confirm to pay"
+        app:buttonPayBackground="@color/colorAccent"
+        app:buttonPayTextColor="@color/white"/>
+
+</LinearLayout>

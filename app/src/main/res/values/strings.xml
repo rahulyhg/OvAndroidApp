@@ -1,0 +1,256 @@
+<resources>
+    <string name="app_name">Ovenues</string>
+    <string name="check_to_pass">I accept terms and conditions.</string>
+    <string name="error_message">Please accept terms and conditions first.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_action_reset">Reset</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="label_owner">owner</string>
+    <string name="valid_thru">valid thru</string>
+    <string name="timeHH">HH</string>
+    <string name="timeMM">mmthru</string>
+
+    <string name="html">
+
+    <Data>
+        <![CDATA[
+
+              <h4>Terms of services
+</h4>
+<p>Ovenues, Inc. (&nbsp;&ldquo;Ovenues&rdquo;, &ldquo;we&rdquo; or &ldquo;us&rdquo;) runs and operates the website www.ovenues.com (the &ldquo;Site&rdquo;) that allows users to rent event venues and purchase related products and services. When you use the Site you agree to these Terms of Service. If you are using the Site on behalf of a legal entity, you represent and warrant that you are authorized to accept these Terms of Service on the entity&rsquo;s behalf and that the entity will be responsible to Ovenues if you or the entity violates these Terms of Service. If you have a separate written agreement with Ovenues, that agreement will prevail in the event of any conflict between these Terms of Service and your written agreement.
+</p>
+<p>We may, in out discretion, change the provisions of these Terms of Service, begin charging for access to the Site or specific features or services, add, remove or change the features or services we offer or the fees (including the amount and type of fees) we charge at any time. We will notify you of these changes through the Site. Your continued use of the Site after any changes to these Terms of Service are posted will be considered your acceptance of such changes.
+</p>
+<p>If you have any questions, comments, concerns, complaints or claims with respect to the Site or other users of the Site, if your account has been compromised by a hacker or scammer, or if you have any other concern, please contact us as indicated below. We will investigate and attempt to resolve the matter. Our contact information by email is support@ovenues.com and by mail is Ovenues, Inc., 1762 Technology Drive, #224, San Jose, CA 95110.
+</p>
+<p>Table of Contents
+</p>
+<p>1. Access and Accounts
+</p>
+<p>2. Description of Ovenues Services
+</p>
+<p>3. Posting of Venues and Related Products and Services
+</p>
+<p>4. Rental of Venues and Purchase of Related Products and Services
+</p>
+<p>5. Payment
+</p>
+<p>6. Applicable Taxes
+</p>
+<p>7. General Terms Related to Accepted Bookings
+</p>
+<p>8. Inappropriate Conduct
+</p>
+<p>9. Accepted Booking Disputes
+</p>
+<p>10. User Liability Release
+</p>
+<p>11. User Conduct
+</p>
+<p>12. Posted Content
+</p>
+<p>13. Procedure for Making Claims of Intellectual Property Infringement
+</p>
+<p>14. Third Party Websites.
+</p>
+<p>15. Indemnity
+</p>
+<p>16. Assignment
+</p>
+<p>17. Notices
+</p>
+<p>18. Disclaimer of Warranties
+</p>
+<p>19. Limitation of Liability
+</p>
+<p>20. Governing Law
+</p>
+<p>21. Dispute Resolution, Arbitration
+</p>
+<p>22. Privacy Policy
+</p>
+<p>23. Miscellaneous
+</p>
+<p>24. Entire Agreement
+</p>
+<p>1.&nbsp;<u>Access and Accounts.</u>
+</p>
+<p>You must be at least 18 years of age or a duly established legal entity to access or use the Site. To access the platform and related services (such platform and related services, the&nbsp;&ldquo;Ovenues Services&rdquo;) that Ovenues provides to you through the Site to enable the rental of venues (&ldquo;Venues&rdquo;) and the purchase and sale of related products and services (&ldquo;Related Products and Services&rdquo;) you must first register for an account and create a user profile. During the account registration process, you may be required to agree to additional terms of service governing certain areas or features of the Site. All information that you provide in connection with your account and profile must be complete and accurate. You agree to maintain the security of your account, including the password used to access your account, and will promptly notify us if you discover or suspect there has been a security breach with respect to your account. You also agree to keep your account and profile information current. By registering for an account, you accept all risks of unauthorized access to the account. We reserve the right to deny registration of any account at our discretion and to terminate your access to all or any part of the Site if you at any time provide inaccurate or misleading information in connection with your account or profile.
+</p>
+<p>2.&nbsp;<u>Description of the Ovenues Services.</u>
+</p>
+<p>The Ovenues Services include a platform whereby a venue provider (a&nbsp;&ldquo;Venue Provider&rdquo;) may post details of a Venue, a person interested in renting the Venue (an &ldquo;Event Host&rdquo;) and the Venue Provider may communicate with each other regarding the Venue, and the Event Host may rent the Venue from the Venue Provider. The platform also enables a service provider (&ldquo;Service Provider&rdquo;) to post details of Related Products and Services for purchase by an Event Host. Any rental of a Venue or purchase of Related Products and Services from a Venue Provider or a Service Provider (each , a &ldquo;Provider&rdquo;) will be subject to these Terms and Conditions.
+</p>
+<p>3.&nbsp;<u>Posting of Venues and Related Products and Services.</u>
+</p>
+<p>(a) The Ovenues Services allows Providers to post listings for their Venues and Related Products and Services (&ldquo;Listings&rdquo;). As part of each Listing, the Provider must also provide further information on the Listing by completing &ldquo;Listing Details.&rdquo; In the event of any conflict between these Terms of Service and the terms of the Listing Details, the terms of the Listing Details shall take precedence.
+</p>
+<p>(b) Listing Details with respect to Venues must include:: (i) location, size, and availability of the Venue; (ii) all applicable charges inclusive of any taxes, duties, fees or other amounts assessed or imposed by any governmental authority (collectively, &ldquo;Taxes&rdquo;); (iii) permitted and prohibited uses of the Venue; (iv) any restrictions on the permitted use of the Venue; (v) any insurance requirements for the Event Host; (vi) any security deposit requirements; (vii) the cancellation policy if different from that set forth herein (viii) any preferred or mandatory providers for Related Products and Services (e.g. caterers, decorators, cake providers, etc.); and (ix) and any additional special rules, terms or conditions with respect to the rental of the Venue. Venue Providers may not use the Ovenues Services to make any Venue available for residential use or lodging purposes, or for criminal or illegal activities. Unless otherwise stated in the Listing Details, the start and end time for a Venue is inclusive of all setup time as well as teardown or cleanup time.
+</p>
+<p>(c) Listing Details with respect to Related Products and Services must include (i) a complete description of the Related Products and Services, (ii) all applicable charges inclusive of any Taxes, (iii) the cancellation policy if different from that set forth herein; (iv) any security deposit requirements; and (v) any additional special rules, terms or conditions with respect to the purchase of the Related Products and Services.
+</p>
+<p>(d) By posting a Listing, the Provider represents and warrants to Ovenues and the Event Host as follows: (i) all information provided in connection with the Listing is accurate and complete and not misleading in any manner; (ii) the Listing and the Provider&rsquo;s fulfillment of the Listing does not and will not violate any agreements the Provider has with third parties, any applicable federal, state or local laws, regulations or ordinances (collectively, &ldquo;Applicable Laws&rdquo;) or any other third party rights; (iii) the Provider is, and will continue at all times to be, compliant with all Applicable Laws, Tax requirements, and any other rules, regulations and agreements that may apply to the Listing; (iv) the Provider is bound by and agrees to the terms and conditions of the Listing, including the terms and conditions stated in the Listing Details, and the terms and conditions applicable to the Listing as stated in these Terms of Service; and (v) with respect to Venue Listings, the Provider has the full right to rent the Venue to the Event Host for the purposes described in the Listing Details and the Venue is fully insured for the purposes set forth in the Listing Details and is and will continue to be properly maintained and free of any safety hazards. Ovenues reserves the right to remove a Listing in its sole discretion at any time and for any reason and without notice. The Provider is solely responsible for any inaccuracies or mistakes made by the Provider with respect to the Provider&rsquo;s Listings, including the respective Listing Details.
+</p>
+<p>(e) A Provider may edit a Listing and the associated Listing Details or remove a Listing any time prior to the Provider&rsquo;s receipt of a Booking Request (as defined below) by an Event Host for the rental of the Venue or the purchase of Related Products and Services.
+</p>
+<p>4.&nbsp;<u>Rental of Venues and Purchase of Related Products and Services.</u>
+</p>
+<p>(a) Event Hosts may use the Ovenues Services to request the rental of Venues or the purchase of Related Products and Services on the terms described in the applicable Listing (&ldquo;Booking Request&rdquo;). Each Booking Request must include the Event Host&rsquo;s credit or debit card payment information. By making a Booking Request, the Event Host represents and warrants to Ovenues and the Provider as follows: (i) the payment information supplied is accurate and complete and charges using the payment information will be honored by the payment card company; (ii) the Event Host will pay the price for the Venue or Related Products and Services even if the Event Host is unable to use the Venue or Related Products and Services at the time booked; (iii) the Event Host is and will continue at all times to be compliant with all Applicable Laws, Tax requirements, and any other rules, regulations, and agreements that may apply to the rental of the Venue or the purchase of the Related Products and Services; and (v) the Event Host is bound by and agrees to the terms and conditions of the Listing, the Listing Details and the other terms and conditions stated herein.
+</p>
+<p>(b) A Provider must confirm or decline a Booking Request within 48 hours after the time the Booking Request was made by the Event Host or the Booking Request will be automatically declined. Ovenues reserves the right to suspend a Provider&rsquo;s use of the Ovenues Services if the Provider fails to timely confirm a Booking Request on two or more occasions. After the Provider has confirmed a Booking Request it will be considered an &ldquo;Accepted Booking&rdquo; and a binding contract will have been entered into between the Provider and the Event Host for the rental of the Venue or the purchase of the Related Products and Services for the date specified (the &ldquo;Event Date&rdquo;) on the terms and conditions of the Listing, including the terms and conditions stated in the Listing Details, and the other terms and conditions applicable to the Listing as stated in these Terms of Service.
+</p>
+<p>5.&nbsp;<u>Payment.</u>
+</p>
+<p>(a) When a Booking Request becomes an Accepted Booking, Ovenues will charge the Event Host the following fees using the credit card or debit card provided by the Event Host:
+</p>
+<p>(i) The Provider Payment (the &ldquo;Provider Payment&rdquo;) equal to the Provider&rsquo;s charges for the rental of the Venue or the purchase of the Related Products and Services, including all applicable Taxes payable to the Provider.
+</p>
+<p>(ii) Any security deposit (the &ldquo;Security Deposit&rdquo;) in the amount set forth in the Listing Details to be held as security for the Accepted Booking.
+</p>
+<p>(iii) The Processing Fee (the &ldquo;Processing Fee&rdquo;) payable to Ovenues for use of the Ovenues Services equal to 10 percent of the Provider Payment. The Processing Fee will also include any Taxes payable by the Event Host to Ovenues for use of the Ovenues Services. The Processing Fee includes the transaction fee charged by the Payment Processor (as defined below).
+</p>
+<p>(b) Within three calendar days after the Event Date, the Provider must complete a final report on the Booking (the &ldquo;Final Booking Report&rdquo;) through the Ovenues Services. The Final Booking Report may include overtime or additional charges incurred by the Event Host (&ldquo;Add-on Charges&rdquo;) or claims asserted by the Provider against the Security Deposit (&ldquo;Security Deposit Claims&rdquo;). The Event Host will be notified if there are any Add-on Charges or Security Deposit Claims in the Final Booking Report. In such case, the Event Host must review the Final Booking Report within two calendar days. If the Event Host does not dispute the Final Booking Report within the two calendar day review period, the Final Booking Report shall be deemed accepted by both parties. At such time, Ovenues will charge the Event Host&rsquo;s credit or debit card for any Add-On Charges and the additional Processing Fee applicable to such Add-On Charges. Within ten business days after the Final Booking Report is accepted or deemed accepted, Ovenues will pay the Provider the Provider Payment and will refund the unused portion of any Security Deposit to the Event Host.
+</p>
+<p>(c) If the Event Host disputes the Final Booking Report or there is any other dispute with respect to the Accepted Booking, such dispute shall be resolved in accordance with the Accepted Booking Disputes section below. Once the dispute is resolved, Ovenues will pay amounts due to the Provider and the Event Host within ten business days. Ovenues will in all circumstances retain an amount not less than the initial Processing Fee charged when the Booking Request was initially accepted.
+</p>
+<p>(d) All payments to Ovenues will be processed using a third-party service provider (the &ldquo;Payment Processor&rdquo;). The Payment Processor provides card acceptance, merchant settlement and related services. All payments hereunder are required to be made in US Dollars. Ovenues reserves the right to suspend an Event Host&rsquo;s use of the Ovenues Services if there is a declined payment or any chargeback with respect to any payment hereunder.
+</p>
+<p>6.&nbsp;<u>Applicable Taxes.</u>
+</p>
+<p>Event Hosts and Providers are solely responsible for determining their obligations under and compliance with Applicable Laws regarding the withholding and payment of Taxes in connection with Bookings. Ovenues does not offer any Tax-related guidance to users of the Ovenues Services. Each Provider shall be responsible for ensuring that the fees charged for the rental of the Venue or the purchase of the Related Products and Services is sufficient to cover all Taxes which may be imposed on the Provider in relation to or arising out of such transaction. Any fees charged by Ovenues that are associated with the use of the Ovenues Services are exclusive of Taxes, other than Taxes imposed on Ovenues&rsquo; net income. Each user of the Ovenues Services must pay or reimburse Ovenues for all such Taxes as part of the Processing Fee or provide Ovenues with evidence of exemption.
+</p>
+<p>7.&nbsp;<u>General Terms Related to Accepted Bookings.</u>
+</p>
+<p>Unless otherwise specified in a Listing, including the Listing Details, the following terms will apply to each Accepted Booking:
+</p>
+<p>(a)&nbsp;<u>Cancellations by the Event Host.</u>
+</p>
+<p>(i) An Event Host may cancel a Booking Request at any time before the Booking Request is accepted by the Provider. However, Ovenues reserves the right to suspend an Event Host&rsquo;s use of the Service if Ovenues determines the Event Host is misusing the Ovenues Services.
+</p>
+<p>(ii) After the Booking Request is accepted by the Provider and becomes an Accepted Booking, an Event Host may cancel an Accepted Booking prior to the Event Date and may receive a refund of a portion of the Provider Payment based on the time the cancellation request is received by the Ovenues Services as follows.
+</p>
+<p>(A) Less than 5 calendar days prior. No refund of any portion of the Provider Payment will be provided.
+</p>
+<p>(B) At least 5 calendar days prior. 75% of the Provider Payment for the rental of the Venue or the purchase of the Related Products and Services will be refunded.
+</p>
+<p>Under no circumstances are Processing Fees refundable.
+</p>
+<p>(iii) If an Event Host cancels an Accepted Booking that requires a refund pursuant to this Section 7(a) or the Listing Details, Ovenues will retain the Provider Payment, any Security Deposit and the Processing Fee until the Event Date. At such time, Ovenues will process any applicable payments to the Event Host and the Provider within ten business days.
+</p>
+<p>(iv) If an Event Host cancels an Accepted Booking that requires a refund pursuant to this Section 7(a) or the Listing Details, the Provider will be entitled to the portion of Provider Payment paid to Ovenues as provided in this Section 7(a) or the Listing Details provided, however, that if the Provider is able to re-book the Venue or resell the Related Products or Services for the same date, then the Provider shall not receive such payment and shall instead look to the new booking exclusively for its compensation for the cancellation of the Accepted Booking. Under these circumstances, the Provider Payment and any Security Deposit will be refunded in full to the Event Host.
+</p>
+<p>(v) An Event Host&rsquo;s failure to comply with the cancellation provisions of this Section 7(a) or the Listing Details will result in the Event Host forfeiting any right to any refund and the Event Host will instead be liable for the full Provider Payment and Processing Fee.
+</p>
+<p>(b)&nbsp;<u>Cancellations by the Provider.</u>&nbsp;Providers may not cancel Accepted Bookings. If a Provider does cancel an Accepted Booking, Ovenues may, in its sole discretion, withhold future payments to the Provider which may be paid to the Event Host to help offset any losses incurred by the Event Host as a result of such cancellation.
+</p>
+<p>(c)&nbsp;<u>Rescheduling.&nbsp;</u>An Event Host and a Provider may mutually agree to reschedule the Event Date for an Accepted Booking to a later date. In such event, the Event Host and Provider shall each notify Ovenues of the Event Date change. There will be no additional Processing Fee if the rescheduled Event Date is within 90 days of the original Event Date. However, if the Event Date is rescheduled to a date later than 90 days from the original Event Date or the Event Date is rescheduled more than one time, an additional Processing Fee will be payable by the Event Host to Ovenues.
+</p>
+<p>(d)&nbsp;<u>Security Deposit.&nbsp;</u>A Provider&rsquo;s Listing Details may require the Event Host to furnish a Security Deposit as part of the Accepted Booking. In such case, the Event Host will pay the Security Deposit to Ovenues and Ovenues will hold the Security Deposit as provided herein. As part of the Final Booking Report, the Provider must notify the Event Host and Ovenues of any Security Deposit Claims within three calendar days after the Event Date.
+</p>
+<p>(e)&nbsp;<u>Add-on Charges.</u>&nbsp;If an Event Host uses or permits the use of a Venue or any Related Products and Services in excess of the time specified in the applicable Accepted Booking or chooses to use additional products or services offered by the Provider, the Event Host will be subject to Add-on Charges as specified in the Listing Details. As part of the Final Booking Report, the Provider must notify Ovenues and the Event Host of any Add-on Charges within three calendar days after the Event Date.
+</p>
+<p>(f)&nbsp;<u>Damages; Insurance.</u>&nbsp;Each Event Host is solely responsible for (a) leaving each Venue and any property provided in relation to any Related Products and Services in the condition it was provided to the Event Host; (b) the Event Host&rsquo;s acts and omissions, and the acts and omissions of the Event Host&rsquo;s guests and invitees, with respect to the Venue or any Related Products and Services; and (c) paying the Provider the cost to repair or replace any damage that occurred while the Event Host was using a Venue or receiving any Related Products and Services. As part of the Final Booking Report, the Provider must notify Ovenues and the Event Host within three calendar days after the Event Date if there is any alleged damage by an Event Host described in this section and provide evidence (including, without limitation, photographs or other physical or documentary evidence) of such damages and reasonable estimates to repair such damages. Ovenues will contact the Event Host regarding the claimed damages who must respond within two calendar days. In the event a claim is made, Ovenues reserves the right to hold any payments until all disputes are resolved. Ovenues reserves the right, without the obligation, to suspend or terminate a user&rsquo;s access to and use of the Ovenues Services in the event the user fails to communicate in a timely manner regarding any damage or provides any false or misleading information with respect to such damage. Ovenues has no obligation to any Provider to make any deduction from any payment made by an Event Host to Ovenues on account of any property damage or other liability, or for any other reason. With respect to the rental of Venues, the Event Host and Provider each agree to maintain insurance to cover any loss associated with injury or death of persons or damage to property arising from the use of the Venue by the Event Host.
+</p>
+<p>8.&nbsp;<u>Inappropriate Conduct.</u>
+</p>
+<p>If a Provider becomes aware that an Event Host or any of the Event Host&rsquo;s guests or invitees has engaged in inappropriate or illegal behavior (such as committing an act of violence or theft), the Provider must immediately report the incident to the appropriate law enforcement authorities. In addition, the Provider must notify Ovenues immediately. Although Ovenues reserves the right to terminate the accounts of the Event Host, the Provider&rsquo;s notice will not obligate us to take any action beyond that required by law or otherwise cause us to incur any liability to the Provider, the Event Host or any other third party.
+</p>
+<p>9.&nbsp;<u>Accepted Booking Disputes.</u>
+</p>
+<p>If a dispute arises between an Event Host and a Provider following the acceptance of a Booking Request, which dispute the claiming party would like Ovenues to investigate, the claiming party must notify Ovenues within three calendar days of the alleged disputed incident and detail the circumstances of such disputed incident and provide all available documentation including, without limitation, photographs or other physical or documentary evidence concerning the dispute. Any disputes submitted after the three-day period will be deemed late and no action will be taken. Disputes submitted within three calendar days of incident will be reviewed by Ovenues and Ovenues will independently contact the Event Host and the Provider to investigate the dispute. If warranted, Ovenues will mediate the dispute and make reasonable efforts to resolve the matter quickly and amicably. Failing amicable resolution between the Event Host and the Provider as a result of the aforementioned mediation by Ovenues, Ovenues will make a reasonable determination as to the merits of the dispute. Once the dispute is resolved, Ovenues will pay amounts due to the Provider and the Event Host within ten business days. Ovenues will in all circumstances retain an amount not less than the initial Processing Fee charged when the Booking Request was initially accepted.
+</p>
+<p>10.&nbsp;<u>Liability Release.</u>
+</p>
+<p>Ovenues only provides a platform for completing bookings. Your use of the Site and your interaction or dealings with other users arising out of your use of the Site is at your sole risk. Ovenues is not a party to any transaction between an Event Host and a Provider. Ovenues has no control over and is not responsible for the quality, safety or legality of the Venues or the Related Products and Services offered or sold, the truth or accuracy of any information provided by any Provider or Event Host or the ability of any Provider or Event Host to complete an Accepted Booking. Ovenues is not responsible or liable for any act, error, omission, breach or negligence of any other user of the Site and you hereby release Ovenues and its directors, officers and contractors (collectively the &ldquo;Ovenues Released Parties&rdquo;) from any and all liability in connection therewith.
+</p>
+<p>11.&nbsp;<u>User Conduct.</u>
+</p>
+<p>All users of the Site are subject to basic rules of good conduct while using the Site. By using the Site you agree to: (i) refrain from violating applicable federal, state and international laws; (ii) refrain from using the Site to send unsolicited e-mails, bulk mail, spam or other materials to other users of the Site or any other individual; (iii) refrain from using the Site to harass, threaten, stalk or abuse other users of the Site; (iv) refrain from interfering with the use of the Site by other users; (v) refrain from using the Site to invade the privacy of others, or to collect or use an individual&rsquo;s personal and private information or to gain or attempt to gain unauthorized access to other computer systems via the Site; (vi) refrain from using the Site to create a false identity or to impersonate another person; and (h) refrain from using the Site to advertise Internet sites or services which are competitive to the Ovenues Services. The foregoing rules set the minimum level of conduct that we expect at the Site. We also ask that you use common sense and be considerate towards other users. We reserve the right, in our sole discretion, to limit, suspend or terminate your right to use the Site, if you violate the aforementioned rules of conduct or engage in other conduct we deem offensive.
+</p>
+<p>12.&nbsp;<u>Posted Content.</u>
+</p>
+<p>(a) As part of your use of the Site, you may be permitted to upload, post, distribute or disseminate (collectively, &ldquo;post&rdquo;) to the Site images, videos, files, data, information and other content and material, including reviews and content posted in Listings and Listing Details such as photos and venue names and descriptions (collectively, the &ldquo;Posted Content&rdquo;). You hereby grant Ovenues an irrevocable, nonexclusive, transferable, royalty-free worldwide right (including any moral rights) and license to use the Posted Content (i) to provide the Ovenues Services, (ii) to promote and advertise the Site and the Ovenues Services through social media and otherwise and (iii) as part of the Ovenues Services, to the extent such Posted Content constitutes feedback or suggestions on how to improve the Ovenues Services. In connection with these activities, you agree that Ovenues has the right to copy, cache, modify, publish, display, distribute, sublicense, translate, create derivative works from, and store the Posted Content, regardless of the medium, technology, or form in which it is used. You also warrant that if you are not the owner of the Posted Content, the owner of the Posted Content has validly and irrevocably granted you the right to grant the license stated above.
+</p>
+<p>(b) You acknowledge and agree that you are solely responsible for the form, content and accuracy of your Posted Content. You agree that you will not post any false, inaccurate or incomplete material or delete or revise any material that was not posted by you. You are responsible for your own postings and are responsible for the consequences of your postings. You agree not to: (i) post any material that is copyrighted or trademarked unless you own the copyright or trademark or have the owner&rsquo;s permission (including requisite consents and releases) to post it; (ii) post any material that reveals a trade secret, unless you own the trade secret or have the owner&rsquo;s permission to post it; (iii) post any material that infringes on any intellectual property right of another or on the privacy or publicity rights of another; (iv) post any material that is unlawful, obscene, indecent, defamatory, threatening, harassing, abusive, hateful or embarrassing to another user or to any other person or entity; (v) post any chain letter or pyramid scheme; or (vi) post any material that contains a virus, Trojan horse, worm, time bomb or other computer programming routine or engine that is intended to damage, detrimentally interfere with, surreptitiously intercept or expropriate any system, data or information.
+</p>
+<p>(c) Ovenues does not represent or guarantee the truthfulness, accuracy or reliability of any Posted Content or endorse any opinions expressed by a user. You acknowledge that any reliance on Posted Content that is posted by other users will be at your own risk. Ovenues does not guarantee or confirm that any user is who the user claims to be.
+</p>
+<p>(d) While we exercise a considerable effort to protect Posted Content from being misused, misuse can occur, and, if misuse of your Posted Content does occur, you hereby release the Ovenues Released Parties from any and all liability in connection therewith.
+</p>
+<p>(e) Ovenues acts as a passive conduit for Posted Content and has no obligation to screen or monitor Posted Content. If Ovenues becomes aware of any Posted Content that allegedly may not conform to these Terms of Service, Ovenues may investigate the allegation and determine in its sole discretion whether to take action in accordance with these Terms of Service. Ovenues has no liability or responsibility to users for performance or nonperformance of such activities. You may find some Posted Content to be offensive, harmful, inaccurate, mislabeled or deceptively labeled. Ovenues expects that you will use caution and common sense when using the Site. Ovenues has the absolute right in its sole discretion to remove or delete without notice any Posted Content that it deems objectionable. You consent to such removal or deletion and waive any claim against Ovenues for such removal or deletion.
+</p>
+<p>13.&nbsp;<u>Procedure for Making Claims of Intellectual Property Infringement.</u>
+</p>
+<p>(a) Ovenues respects the intellectual property of others and takes the protection of copyrights and all other intellectual property very seriously, and Ovenues asks users of the Site to do the same. Infringing activity will not be tolerated on or through the Site. If you believe that any Posted Content made available on or through the Site has been used or exploited in a manner that infringes an intellectual property right you own or control, then please promptly send a &ldquo;Notification of Claimed Infringement&rdquo; containing the following information to Ovenues&rsquo; Designated Agent identified below. Your communication must include substantially the following: (i) a description of the copyrighted work that you claim has been infringed, (ii) a description of where the alleged infringing material is located on the Site, (iii) your address, telephone number and email address, (iv) a statement by you that you have a good faith belief that the disputed use is not authorized by the copyright owner, its agent, or the law, (v) a statement by you, made under penalty of perjury, that the above information in your notice is accurate and that you are the copyright owner or authorized to act on the copyright owner&rsquo;s behalf; and (vi) your physical or electronic signature. You should consult with your own lawyer and/or see 17 U.S.C. &sect; 512 to confirm your obligations to provide a valid notice of claimed infringement under the Copyright Act. Ovenues&rsquo; Designated Agent for notices of claimed infringement can be contacted by email at support@ovenues.com or via U.S. Mail at Ovenues, Inc., 1762 Technology Drive, #224, San Jose, CA 95110 Attn: Copyright Agent.
+</p>
+<p>(b) If you receive a notification from Ovenues that material made available by you on or through the Site has been the subject of a Notification of Claimed Infringement, then you will have the right to provide Ovenues with what is called a &ldquo;Counter Notification.&rdquo; To be effective, a Counter Notification must be in writing, provided to Ovenues&rsquo; Designated Agent through one of the methods identified above, and include substantially the following information: (i) identification of the material that has been removed or to which access has been disabled and the location at which the material appeared before it was removed or access to it was disabled, (ii) a statement under penalty of perjury that you have a good faith belief that the material was removed or disabled as a result of mistake or misidentification of the material to be removed or disabled, (iii) your name, address, and telephone number, (iv) a statement that you consent to the jurisdiction of Federal District Court for the judicial district in which your address is located, or if your address is outside of the United States, for any judicial district in which Ovenues may be found, and that you will accept service of process from the person who provided the Notification of Claimed Infringement or an agent of such person and (v) your physical or electronic signature. You should consult a lawyer or see 17 U.S.C. &sect; 512 to confirm your obligations to provide a valid counter notification under the Copyright Act.
+</p>
+<p>(c) Ovenues reserves the right to seek damages from any party that submits a Notification of Claimed Infringement or Counter Notification in violation of the law. For the avoidance of doubt, only notices submitted under the Digital Millennium Copyright Act and the procedures set forth in this section should be sent to the Designated Agent. Any other comments, compliments, complaints or suggestions about Ovenues, the operation of the Site or any other matter should be sent to support@ovenues.com.
+</p>
+<p>14.&nbsp;<u>Third Party Websites.</u>
+</p>
+<p>Users of the Site may have the opportunity to visit, or link to, other sites not operated by Ovenues (a &ldquo;Third Party Site&rdquo;). Third Party Sites are not within the supervision or control of Ovenues. A link to a Third Party Site from the Site does not constitute an endorsement of the products or services offered on such site. Ovenues makes no representation or warranty regarding any Third Party Site. Ovenues has not taken any steps to confirm the accuracy or reliability of any of the information contained on any Third Party Site and disclaims all responsibility and liability therefor. Ovenues does not make any representation or warranty as to the security of any information (including, without limitation, credit card and other personal information) you might be requested to give to a Third Party Site, and you hereby irrevocably waive any claim against Ovenues and the other Ovenues Released Parties with respect to such site.
+</p>
+<p>15.&nbsp;<u>Indemnity.</u>
+</p>
+<p>You agree to indemnify, defend and hold harmless Ovenues and the other Ovenues Released Parties from and against any and all suits, losses, claims, demands, liabilities, damages, costs and expenses (including reasonable legal fees and expenses) arising from or relating to (i) your use of the Site or any material you submit, download, post or transmit through the Site; (ii) your breach of these Terms of Service or any of the policies or guidelines governing the Site or any representation, warranty or covenant made by you herein or therein; or (iii) your violation of any Applicable Law or any third party&rsquo;s rights, including but not limited to, copyright infringement, harm to a third party&rsquo;s trademark or other intellectual property rights, or any claim of defamation, libel or slander. This obligation survives any termination of these Terms of Service.
+</p>
+<p>16.&nbsp;<u>Assignment.</u>
+</p>
+<p>You may not assign these Terms of Service or delegate any of your obligations hereunder without the prior written consent of Ovenues. Subject to the foregoing, these Terms of Service will be binding on and will inure to the benefit of the legal representatives, successors and assigns of you and Ovenues.
+</p>
+<p>17.&nbsp;<u>Notices.</u>
+</p>
+<p>Any notice that is required or permitted by these Terms of Service shall be in writing and shall be deemed effective upon receipt. Notices to Ovenues shall be mailed to Ovenues, Inc., 1762 Technology Drive, #224, San Jose, CA 95110. Any notice from Ovenues to a Site user that is required or permitted by these Terms of Service shall be in writing and shall be deemed effective upon receipt when sent by e-mail to the email address provided by such user or when mailed to the address provided by such user.
+</p>
+<p>18.&nbsp;<u>DISCLAIMER OF WARRANTIES.</u>
+</p>
+<p>&nbsp;
+</p>
+<p>THE SITE AND THE CONTENT PROVIDED THROUGH THE SITE ARE PROVIDED ON AN &ldquo;AS IS&rdquo; BASIS. OVENUES DOES NOT REPRESENT OR WARRANT THAT THE CONTENT PROVIDED OR THE OPERATION OF THE SITE WILL BE UNINTERRUPTED OR ERROR-FREE. EXCEPT AS EXPRESSLY STATED HEREIN, OVENUES MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND WITH RESPECT TO THE SITE OR ANY CONTENT PROVIDED ON THE SITE. USE OF THE SITE IS AT YOUR OWN RISK. ALL EXPRESS, IMPLIED, AND STATUTORY WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT OF PROPRIETARY RIGHTS, ARE EXPRESSLY DISCLAIMED TO THE FULLEST EXTENT ALLOWED BY LAW. TO THE FULLEST EXTENT ALLOWED BY LAW, OVENUES DISCLAIMS ANY LIABILITY OR RESPONSIBILITY FOR THE ACCURACY, RELIABILITY, AVAILABILITY, COMPLETENESS, LEGALITY OR OPERABILITY OF THE SITE AND THE CONTENT PROVIDED THROUGH THE SITE. BY USING THE SITE, YOU ACKNOWLEDGE THAT OVENUES IS NOT RESPONSIBLE OR LIABLE FOR ANY HARM RESULTING FROM (I) USE OF THE SITE; (II) DOWNLOADING MATERIAL FROM THE SITE; OR (III) EMAILS SENT FROM THE SITE, INCLUDING, WITHOUT LIMITATION, HARM CAUSED BY VIRUSES, WORMS, TROJAN HORSES, OR ANY SIMILAR CONTAMINATION OR DESTRUCTIVE PROGRAM. YOU FURTHER ACKNOWLEDGE THAT OVENUES DOES NOT MAKE ANY WARRANTIES OR REPRESENTATIONS THAT THE RESULTS OBTAINED FROM USE OF THE SITE WILL MEET YOUR EXPECTATIONS OR WILL BE SATISFACTORY IN ANY WAY. SOME JURISDICTIONS DO NOT ALLOW THE DISCLAIMER OF IMPLIED WARRANTIES. IN SUCH JURISDICTIONS, THE AFOREMENTIONED DISCLAIMERS, RELATED TO IMPLIED WARRANTIES MAY NOT APPLY TO YOU.
+</p>
+<p>&nbsp;
+</p>
+<p>19.&nbsp;<u>LIMITATION OF LIABILITY.</u>
+</p>
+<p>TO THE FULLEST EXTENT ALLOWED BY LAW, NEITHER OVENUES NOR ANY OTHER OVENUES RELEASED PARTY SHALL BE LIABLE FOR ANY LOSS OR DAMAGES WHATSOEVER THAT RESULT FROM USE OF THE SITE OR THE CONTENT DOWNLOADED FROM THE SITE, INCLUDING BUT NOT LIMITED TO: (A) ANY DIRECT, INDIRECT, SPECIAL, CONSEQUENTIAL, PUNITIVE OR INCIDENTAL DAMAGES; (B) DAMAGES FOR LOSS OF USE, PROFITS, DATA, OR OTHER INTANGIBLES; (C) DAMAGES FOR UNAUTHORIZED USE, NON-PERFORMANCE OF SITE, ERRORS OR OMISSIONS; (D) DAMAGES RELATED TO DOWNLOADING INFORMATION, POSTING INFORMATION OR SENDING OR RECEIVING E-MAILS; AND (E) DAMAGES RESULTING FROM VIRUSES, WORMS, TROJAN HORSES, OR OTHER CONTAMINATION OR DESTRUCTIVE PROGRAMS. THE AGGREGATE LIABILITY OF OVENUES AND THE OTHER OVENUES RELEASED PARTIES SHALL BE LIMITED TO US $100.00 IN ANY JURISDICTION THAT DOES NOT ALLOW THE EXCLUSION OR LIMITATION OF CERTAIN WARRANTIES OR LIABILITIES.
+</p>
+<p>20.&nbsp;<u>Governing Law.</u>
+</p>
+<p>These Terms of Service and your use of the Site will be interpreted in accordance with the laws of the State of California and the United States of America, without regard to conflict of law provisions. You and we agree to submit to the personal jurisdiction of a state court located in Santa Clara County, California or a United States District Court, Northern District of California located in Santa Clara County, California for any actions for which the parties retain the right to seek injunctive or other equitable relief in a court of competent jurisdiction to prevent the actual or threatened infringement, misappropriation or violation of a party&#39;s copyrights, trademarks, trade secrets, patents, or other intellectual property rights, as set forth in the Dispute Resolution; Arbitration section below.
+</p>
+<p>21.&nbsp;<u>Disputes Resolution, Arbitration.</u>
+</p>
+<p>(a) You and Ovenues agree that any dispute, claim or controversy arising out of or relating to these Terms of Service or the breach, termination, enforcement, interpretation or validity thereof, or to the use of the Site (collectively, &ldquo;Disputes&rdquo;) will be settled by binding arbitration, except that each party retains the right to seek injunctive or other equitable relief in a court of competent jurisdiction to prevent the actual or threatened infringement, misappropriation or violation of a party&#39;s copyrights, trademarks, trade secrets, patents, or other intellectual property rights. You acknowledge and agree that you and Ovenues are each waiving the right to a trial by jury or to participate as a plaintiff or class member in any purported class action or representative proceeding. Further, unless both you and Ovenues otherwise agree in writing, the arbitrator may not consolidate more than one person&#39;s claims, and may not otherwise preside over any form of any class or representative proceeding. This section will survive any termination of these Terms of Service.
+</p>
+<p>(b) The arbitration will be administered by the American Arbitration Association (&quot;AAA&quot;) in accordance with the Commercial Arbitration Rules and the Supplementary Procedures for Consumer Related Disputes (the &quot;AAA Rules&quot;) then in effect, except as modified by this section. The Federal Arbitration Act will govern the interpretation and enforcement of this section. A party who desires to initiate arbitration must provide the other party with a written Demand for Arbitration as specified in the AAA Rules. The arbitrator will be either a retired judge or an attorney licensed to practice law in the state of California and will be selected by the parties from the AAA&#39;s roster of consumer dispute arbitrators. If the parties are unable to agree upon an arbitrator within 7 days of delivery of the Demand for Arbitration, then the AAA will appoint the arbitrator in accordance with the AAA Rules. Unless you and Ovenues otherwise agree, the arbitration will be conducted in Santa Clara County, California. Subject to the AAA Rules, the arbitrator will have the discretion to direct a reasonable exchange of information by the parties, consistent with the expedited nature of the arbitration. The arbitrator will render an award within the time frame specified in the AAA Rules. The arbitrator&#39;s decision will include the essential findings and conclusions upon which the arbitrator based the award. Judgment on the arbitration award may be entered in any court having jurisdiction thereof. The arbitrator&#39;s award damages must be consistent with the terms of the &quot;Limitation of Liability&quot; section above as to the types and the amounts of damages for which a party may be held liable. The arbitrator may award declaratory or injunctive relief only in favor of the claimant and only to the extent necessary to provide relief warranted by the claimant&#39;s individual claim. Your responsibility to pay any AAA filing, administrative and arbitrator fees will be solely as set forth in the AAA Rules.
+</p>
+<p>(c) If Ovenues changes this section after the date you first accepted these Terms of Service (or accepted any subsequent changes to these Terms of Service), you may reject any such change by sending us written notice (including by email) within 30 days of the date such change became effective, as indicated in the &quot;Last Updated Date&quot; above or in the date of our email to you notifying you of such change. By rejecting any change, you are agreeing that you will arbitrate any Dispute between you and Ovenues in accordance with the provisions of this section as of the date you first accepted these Terms of Service (or accepted any subsequent changes to these Terms of Service).
+</p>
+<p>22.&nbsp;<u>Privacy Policy.</u>
+</p>
+<p>Please review our Privacy Policy, available at www.ovenues.com/privacypolicy that governs our use of your personal information provided through the Site and the Ovenues Services and to which you agree and consent to be bound if you use the Site or the Ovenues Services.
+</p>
+<p>23.&nbsp;<u>Miscellaneous.</u>
+</p>
+<p>No failure of Ovenues to enforce any of its rights under these Terms of Service or any of the policies or guidelines governing the Site will act as a waiver of such rights. If any portion of any provision of these Terms of Service or such other rules policies or guidelines is found invalid or unenforceable, that provision shall be enforced to the maximum extent possible and the remaining provisions of these Terms of Service and such other rules policies and guidelines shall remain in full force and effect. Headings used in these Terms of Services are for convenience only and have no legal or contractual significance.
+</p>
+<p>24.&nbsp;<u>Entire Agreement.</u>
+</p>
+<p>These Terms of Service and the policies and guidelines governing the Site, as modified from time to time, constitute the entire agreement between you and Ovenues with respect to the subject matter hereof. These Terms of Service replace all prior or contemporaneous understandings or agreements, written or oral, regarding the subject matter hereof.
+</p>
+
+
+             ]]>
+    </Data>
+    </string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <ovenues.com.ovenue.customviews.UserTextView
+        android:id="@+id/row_text_view_only"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:tag="100"
+        android:text=""
+        android:textColor="@color/white"
+        android:background="@color/colorAccent"
+        android:textSize="15sp" />
+
+    <ovenues.com.ovenue.customviews.UserTextView
+        android:id="@+id/row_text_view_only_2"
+        android:visibility="gone"
+        android:layout_marginEnd="15dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center"
+        android:gravity="right|center"
+        android:tag="100"
+        android:text=""
+        android:textColor="@color/white"
+        android:background="@color/colorAccent"
+        android:textSize="15sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/tools"
+    android:id="@+id/home_relative_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:fitsSystemWindows="true">
+
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="5dp">
+
+                <ovenues.com.ovenue.customviews.UserTextView
+                    android:id="@+id/tv_venue_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="5dp"
+                    android:visibility="gone"
+                    android:tag="100"
+                    android:text="Venue Name"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="12sp" />
+
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/my_recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="none" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:orientation="vertical">
+
+                        <ovenues.com.ovenue.customviews.UserTextView
+                            android:id="@+id/tvTitleDescription"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_gravity="left|center"
+                            android:gravity="left|center"
+                            android:padding="5dp"
+                            android:tag="100"
+                            android:text="DESCRIPTION"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+                        <ovenues.com.ovenue.customviews.UserTextView
+                            android:id="@+id/tv_description"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_gravity="left|center"
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginTop="1dp"
+                            android:gravity="left|center"
+                            android:padding="5dp"
+                            android:tag="100"
+                            android:text=""
+                            android:textColor="@color/md_grey_700"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:orientation="vertical">
+
+                        <ovenues.com.ovenue.customviews.UserTextView
+                            android:id="@+id/tvTitleVenueSuiteablefor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_gravity="left|center"
+                            android:gravity="left|center"
+                            android:padding="5dp"
+                            android:tag="100"
+                            android:text="VENUE SUITABLE FOR"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+                        <ovenues.com.ovenue.customviews.UserTextView
+                            android:id="@+id/tv_vanuesuitable"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_gravity="left|center"
+                            android:layout_marginTop="1dp"
+                            android:gravity="left|center"
+                            android:padding="5dp"
+                            android:tag="100"
+                            android:text=""
+                            android:textColor="@color/md_grey_700"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_amenities"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ovenues.com.ovenue.customviews.UserTextView
+                        android:id="@+id/tvTitleAmenities"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="left|center"
+                        android:gravity="left|center"
+                        android:padding="5dp"
+                        android:tag="100"
+                        android:text="Amenities"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+
+                    <ovenues.com.ovenue.utils.ExpandableHeightsGridView
+                        android:id="@+id/grid_amenities"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:numColumns="3"
+                        android:layout_gravity="left"
+                        android:gravity="left"
+                        android:horizontalSpacing="2dp"
+                        android:verticalSpacing="2dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp">
+
+                    </ovenues.com.ovenue.utils.ExpandableHeightsGridView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="left"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:orientation="vertical">
+
+                    <ovenues.com.ovenue.customviews.UserTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginTop="1dp"
+                        android:gravity="center|left"
+                        android:padding="1dp"
+                        android:tag="100"
+                        android:text="Location"
+                        android:textAllCaps="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/img_ic_map"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ic_map" />
+
+
+                    <ovenues.com.ovenue.customviews.UserTextView
+                        android:id="@+id/tv_venue_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="3dp"
+                        android:gravity="center"
+                        android:padding="1dp"
+                        android:tag="100"
+                        android:text="Address"
+                        android:textColor="@color/md_grey_700"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_numberDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/rounded_corner_orange_borde"
+                    android:padding="2dp">
+
+                    <ovenues.com.ovenue.customviews.UserTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:gravity="left"
+                        android:padding="5dp"
+                        android:tag="300"
+                        android:text="Get In Touch Now"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <ovenues.com.ovenue.customviews.UserTextView
+                        android:id="@+id/tv_shownumber"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@drawable/rounded_corner_orange_white_borde"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:layout_margin="5dp"
+                        android:tag="200"
+                        android:text="Show Number"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+
+                </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:id="@+id/ll_tandC"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:orientation="vertical">
+
+                        <ovenues.com.ovenue.customviews.UserTextView
+                            android:id="@+id/userTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_gravity="left|center"
+                            android:gravity="left|center"
+                            android:padding="5dp"
+                            android:tag="100"
+                            android:text="TERMS AND CONDITIONS"
+                            android:textAllCaps="true"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+
+                        <ovenues.com.ovenue.customviews.UserTextView
+                            android:id="@+id/tv_terms"
+                            android:maxLines="5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_gravity="left|center"
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginTop="1dp"
+                            android:gravity="left|center"
+                            android:padding="5dp"
+                            android:inputType="textMultiLine"
+                            android:tag="100"
+                            android:text=""
+                            android:textColor="@color/md_grey_700"
+                            android:textSize="12sp" />
+
+
+
+
+
+
+                        <ovenues.com.ovenue.customviews.UserTextView
+                            android:id="@+id/tv_readmore"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_gravity="right|center"
+                            android:gravity="right|center"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginBottom="3dp"
+                            android:paddingTop="1dp"
+                            android:maxLines="5"
+                            android:paddingBottom="2dp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"
+                            android:tag="100"
+                            android:text="Read More"
+                            android:textColor="@color/md_blue_900"
+                            android:textSize="10sp" />
+
+                    </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </FrameLayout>
+
+    <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+
+</LinearLayout>

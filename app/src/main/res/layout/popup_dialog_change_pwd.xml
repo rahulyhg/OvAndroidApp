@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+
+    <ovenues.com.ovenue.customviews.UserTextView
+        android:tag="100"
+        android:text="Change password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"/>
+   <!-- <TextView
+        android:text="Lets get started"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="@color/green"/>-->
+
+
+    <ovenues.com.ovenue.customviews.UserTextView
+        android:tag="200"
+        android:layout_marginTop="10dp"
+        android:text="Old Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"/>
+
+
+    <ovenues.com.ovenue.customviews.UserEditText
+        android:tag="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="15dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/rounded_corner_trsnprnt_white_borde"
+        android:padding="10dp"
+        android:textColorHint="@color/white"
+        android:id="@+id/et_old_pwd" />
+
+    <ovenues.com.ovenue.customviews.UserTextView
+        android:tag="200"
+        android:layout_marginTop="10dp"
+        android:text="New Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"/>
+
+    <ovenues.com.ovenue.customviews.UserEditText
+        android:tag="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="15dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/rounded_corner_trsnprnt_white_borde"
+        android:padding="10dp"
+        android:textColorHint="@color/white"
+        android:id="@+id/et_new_pwd" />
+
+    <ovenues.com.ovenue.customviews.UserTextView
+        android:tag="200"
+        android:layout_marginTop="10dp"
+        android:text="Confirm New Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"/>
+
+    <ovenues.com.ovenue.customviews.UserEditText
+        android:tag="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:maxLines="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="15dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/rounded_corner_trsnprnt_white_borde"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:id="@+id/et_confirm_pwd" />
+
+
+
+
+        <ovenues.com.ovenue.customviews.UserTextView
+            android:tag="100"
+            android:id="@+id/change_pwd_tv_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/md_orange_400"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:text="Submit"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+</LinearLayout>

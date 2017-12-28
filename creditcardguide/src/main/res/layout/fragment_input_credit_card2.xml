@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+            <movile.com.creditcardguide.view.CreditCardView
+                android:id="@+id/creditcard_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/frg_input_card_layout_payment"
+                        android:orientation="vertical">
+
+                        <ScrollView
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fillViewport="true">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <!--Layout portion and save card-->
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:id="@+id/frg_input_lnl_portion"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="left"
+                                        android:layout_weight="1"
+                                        android:orientation="vertical"
+                                        android:visibility="visible">
+
+                                        <FrameLayout
+                                            android:id="@+id/frg_input_frm_save_card"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:layout_weight="0">
+
+                                            <LinearLayout
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="12dp"
+                                                android:orientation="horizontal"
+                                                android:visibility="gone">
+
+                                                <Switch
+                                                    android:id="@+id/frg_input_card_sw_save_card"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginRight="5dp"
+                                                    android:checked="true"
+                                                    android:textOff="@string/no"
+                                                    android:textOn="@string/yes" />
+
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginRight="16dp"
+                                                    android:tag="l"
+                                                    android:text="@string/save_data"
+                                                    android:textColor="@color/gray_hard_text" />
+
+                                            </LinearLayout>
+
+
+                                            <Button
+                                                android:id="@+id/bt_edit"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="right"
+                                                android:layout_marginRight="24dp"
+                                                android:background="@drawable/selector_button_blue"
+                                                android:paddingLeft="8dp"
+                                                android:paddingRight="8dp"
+                                                android:textSize="14sp"
+                                                android:tag="m"
+                                                android:text="@string/edit_card"
+                                                android:textAllCaps="true"
+                                                android:textColor="@color/white"
+                                                android:visibility="gone" />
+
+                                        </FrameLayout>
+
+                                        <!-- Portion Layout -->
+                                        <include
+                                            layout="@layout/view_portion_credit_card"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="24dp"
+                                            android:visibility="gone"/>
+
+                                        <LinearLayout
+                                            android:id="@+id/ll_payment_bottom"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical"
+                                            android:layout_gravity="bottom"
+                                            android:layout_marginTop="5dp"
+                                            android:background="@color/background_default">
+
+                                            <android.support.design.widget.TextInputLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:paddingTop="5dp"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginRight="10dp">
+
+                                                <AutoCompleteTextView
+                                                    android:id="@+id/et_address_line"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="center"
+                                                    android:hint="Address"
+                                                    android:maxLength="200"
+                                                    android:gravity="top|left|center"
+                                                    android:inputType="textPostalAddress"
+                                                    android:tag="100"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="16sp"
+                                                    android:paddingTop="15dp"
+                                                    android:paddingBottom="15dp"
+                                                    android:focusableInTouchMode="true"/>
+
+                                            </android.support.design.widget.TextInputLayout>
+
+
+                                            <android.support.design.widget.TextInputLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginRight="10dp">
+
+                                                <AutoCompleteTextView
+                                                    android:id="@+id/et_city"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="center"
+                                                    android:hint="City"
+                                                    android:maxLength="20"
+                                                    android:gravity="top|left|center"
+                                                    android:inputType="textPostalAddress"
+                                                    android:tag="100"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="16sp"
+                                                    android:paddingTop="15dp"
+                                                    android:paddingBottom="15dp"
+                                                    android:focusableInTouchMode="true"/>
+
+                                            </android.support.design.widget.TextInputLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="bottom"
+                                                android:layout_weight="1"
+                                                android:layout_marginEnd="10dp"
+                                                android:layout_marginStart="10dp"
+                                                android:orientation="horizontal">
+
+                                                <android.support.design.widget.TextInputLayout
+                                                    android:layout_width="0dp"
+                                                    android:layout_weight="1"
+                                                    android:layout_height="match_parent">
+
+                                                    <EditText
+                                                        android:id="@+id/et_state"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:layout_gravity="center"
+                                                        android:hint="State"
+                                                        android:maxLength="20"
+                                                        android:gravity="top|left|center"
+                                                        android:inputType="textPostalAddress"
+                                                        android:tag="100"
+                                                        android:textColor="@color/black"
+                                                        android:textSize="16sp"
+                                                        android:paddingTop="15dp"
+                                                        android:paddingBottom="15dp"
+                                                        android:focusableInTouchMode="true"/>
+                                                </android.support.design.widget.TextInputLayout>
+
+                                                <android.support.design.widget.TextInputLayout
+                                                    android:layout_width="0dp"
+                                                    android:layout_weight="1"
+                                                    android:layout_height="match_parent">
+
+                                                <EditText
+                                                    android:id="@+id/et_zipcode"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="center"
+                                                    android:hint="ZIP"
+                                                    android:maxLength="8"
+                                                    android:gravity="top|left|center"
+                                                    android:inputType="number"
+                                                    android:tag="100"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="16sp"
+                                                    android:paddingTop="15dp"
+                                                    android:paddingBottom="15dp"
+                                                    android:focusableInTouchMode="true"/>
+
+                                                </android.support.design.widget.TextInputLayout>
+
+
+                                            </LinearLayout>
+
+
+
+                                            <FrameLayout
+                                                android:layout_width="fill_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="9dp"
+                                                android:padding="5dp">
+
+                                                <android.support.design.widget.TextInputLayout
+                                                    android:id="@+id/til_coupnhint"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_marginTop="3dp"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:layout_marginRight="10dp">
+
+                                                    <AutoCompleteTextView
+                                                        android:id="@+id/et_coupnCode"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="50dp"
+                                                        android:layout_gravity="center"
+                                                        android:hint="Coupon Code"
+                                                        android:maxLength="200"
+                                                        android:maxLines="1"
+                                                        android:imeOptions="actionDone"
+                                                        android:gravity="top|left|center"
+                                                        android:inputType="textPostalAddress"
+                                                        android:tag="100"
+                                                        android:textColor="@color/black"
+                                                        android:textSize="16sp"
+                                                        android:paddingTop="15dp"
+                                                        android:paddingBottom="15dp"
+                                                        android:focusableInTouchMode="true"/>
+
+                                                </android.support.design.widget.TextInputLayout>
+
+                                                <Button
+                                                    android:id="@+id/calc_clear_txt_Prise"
+                                                    android:layout_width="25dp"
+                                                    android:layout_height="25dp"
+                                                    android:layout_marginRight="20dp"
+                                                    android:layout_gravity="right|center_vertical"
+                                                    android:background="@android:drawable/ic_menu_close_clear_cancel" />
+
+                                            </FrameLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="bottom"
+                                                android:layout_weight="1"
+                                                android:paddingTop="5dp"
+                                                android:paddingBottom="5dp"
+                                                android:paddingStart="16dp"
+                                                android:paddingEnd="16dp"
+                                                android:orientation="horizontal">
+
+
+
+                                                <TextView
+                                                    android:id="@+id/txt_label_total_cart"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="center"
+                                                    android:tag="b"
+                                                    android:text="Total ($) :"
+                                                    android:textAllCaps="false"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="16sp" />
+
+                                                <TextView
+                                                    android:id="@+id/frg_input_card_txt_summary_items_cart"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="center"
+                                                    android:layout_marginLeft="4dp"
+                                                    android:layout_weight="1"
+                                                    android:tag="l"
+                                                    android:text=""
+                                                    android:textAllCaps="false"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="12sp" />
+
+                                                <TextView
+                                                    android:id="@+id/frg_input_card_txt_value_cart"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="center"
+                                                    android:layout_weight="0"
+                                                    android:tag="b"
+                                                    android:text=""
+                                                    android:textAllCaps="false"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="16sp" />
+
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="bottom"
+                                                android:layout_weight="1"
+                                                android:paddingTop="5dp"
+                                                android:paddingBottom="5dp"
+                                                android:paddingStart="16dp"
+                                                android:paddingEnd="16dp"
+                                                android:orientation="horizontal">
+
+
+
+                                                <TextView
+                                                    android:id="@+id/txt_label_total_discount"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="center"
+                                                    android:tag="b"
+                                                    android:text="Discount  ($) :"
+                                                    android:textAllCaps="false"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="16sp" />
+
+                                                <TextView
+                                                    android:id="@+id/frg_input_card_txt_summary_items_discount"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="center"
+                                                    android:layout_marginLeft="4dp"
+                                                    android:layout_weight="1"
+                                                    android:tag="l"
+                                                    android:text=""
+                                                    android:textAllCaps="false"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="12sp" />
+
+                                                <TextView
+                                                    android:id="@+id/frg_input_card_txt_value_discount"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="center"
+                                                    android:layout_weight="0"
+                                                    android:tag="b"
+                                                    android:text=""
+                                                    android:textAllCaps="false"
+                                                    android:textColor="@color/red_wrong"
+                                                    android:textSize="16sp" />
+
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="bottom"
+                                                android:layout_weight="1"
+                                                android:paddingTop="10dp"
+                                                android:paddingBottom="10dp"
+                                                android:paddingStart="16dp"
+                                                android:paddingEnd="16dp"
+                                                android:orientation="horizontal">
+
+
+
+                                                <TextView
+                                                    android:id="@+id/txt_label_total"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="center"
+                                                    android:tag="b"
+                                                    android:text="Net Payable ($) :"
+                                                    android:textAllCaps="false"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="18sp" />
+
+                                                <TextView
+                                                    android:id="@+id/frg_input_card_txt_summary_items"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="center"
+                                                    android:layout_marginLeft="4dp"
+                                                    android:layout_weight="1"
+                                                    android:tag="l"
+                                                    android:text=""
+                                                    android:textAllCaps="false"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="12sp" />
+
+                                                <TextView
+                                                    android:id="@+id/frg_input_card_txt_value"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="center"
+                                                    android:layout_weight="0"
+                                                    android:tag="b"
+                                                    android:text=""
+                                                    android:textAllCaps="false"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="18sp" />
+
+                                            </LinearLayout>
+
+                                            <Button
+                                                android:id="@+id/frg_input_card_bt_pay"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="57dp"
+                                                android:layout_gravity="center"
+                                                android:background="@color/green_button"
+                                                android:layout_weight="0"
+                                                android:tag="b"
+                                                android:text="@string/realize_payment"
+                                                android:textAllCaps="false"
+                                                android:textColor="@color/white"
+                                                android:textSize="18sp" />
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+
+
+                                </LinearLayout>
+
+                                <!--divider-->
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0.5dp"
+                                    android:layout_marginTop="8dp"
+                                    android:background="@color/line_edittext_color" />
+
+
+                                <FrameLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:background="@color/background_summary">
+
+                                </FrameLayout>
+
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/frg_input_card_layout_data"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <movile.com.creditcardguide.view.LockableViewPager
+                        android:id="@+id/pager"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <include layout="@layout/view_list_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                        <include layout="@layout/view_number_credit_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                        <include layout="@layout/view_expire_date_credit_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                        <include layout="@layout/view_security_code_credit_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                        <include layout="@layout/view_name_credit_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    </movile.com.creditcardguide.view.LockableViewPager>
+
+                    <ImageView
+                        android:id="@+id/frg_input_card_bt_next"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="8dp"
+                        android:paddingRight="16dp"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="16dp"
+                        android:src="@drawable/selector_bt_next" />
+                </FrameLayout>
+
+
+            </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+
+    <ovenues.com.ovenue.customviews.UserTextView
+        android:tag="100"
+        android:text="Forgot password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"/>
+   <!-- <TextView
+        android:text="Lets get started"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="@color/green"/>-->
+
+
+    <ovenues.com.ovenue.customviews.UserTextView
+        android:tag="100"
+        android:layout_marginTop="10dp"
+        android:text="E-mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"/>
+
+
+    <ovenues.com.ovenue.customviews.UserEditText
+        android:tag="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded_corner_trsnprnt_white_borde"
+        android:padding="10dp"
+        android:textColorHint="@color/white"
+        android:id="@+id/frg_et_email" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ovenues.com.ovenue.customviews.UserTextView
+            android:tag="100"
+            android:id="@+id/frg_tv_submit"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/md_orange_400"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Submit"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

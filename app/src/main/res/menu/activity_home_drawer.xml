@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_menu_home"/>
+
+        <item
+            android:id="@+id/nav_offers"
+            android:title="All Offers"
+            android:icon="@drawable/ic_menu_offer"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/nav_venues"
+            android:title="Venues"
+            android:visible="true"
+            android:icon="@drawable/ic_menu_venues"/>
+
+        <item
+            android:id="@+id/nav_services"
+            android:title="Services"
+            android:icon="@drawable/ic_menu_services"/>
+
+        <item
+            android:id="@+id/nav_bookings"
+            android:title="Bookings"
+            android:icon="@drawable/ic_menu_bookings"/>
+
+        <item
+            android:id="@+id/nav_askovenues"
+            android:title="Ask Ovenues"
+            android:icon="@drawable/ic_menu_askovenues"/>
+
+        <item
+            android:id="@+id/nav_listbusiness"
+            android:title="List Your Business"
+            android:icon="@drawable/ic_menu_listyourbusiness"/>
+
+
+        <item
+            android:id="@+id/nav_contactus"
+            android:title="Help &amp; Support"
+            android:icon="@drawable/ic_menu_contactus"/>
+
+        <item
+            android:id="@+id/nav_aboutus"
+            android:title="About us"
+            android:visible="false"
+            android:icon="@drawable/ic_menu_aboutus"/>
+
+        <item
+            android:id="@+id/nav_howitwork"
+            android:title="How it works?"
+            android:icon="@drawable/ic_menu_howitwork"/>
+
+        <item
+            android:id="@+id/nav_termsofuse"
+            android:title="Terms of Use"
+            android:icon="@drawable/ic_menu_termscondition"/>
+
+        <item
+            android:id="@+id/nav_signout"
+            android:title="Sign Out"
+            android:icon="@drawable/ic_menu_logout"/>
+        </group>
+
+</menu>

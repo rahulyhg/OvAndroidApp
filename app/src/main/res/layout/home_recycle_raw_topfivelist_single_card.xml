@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:clickable="true"
+    android:background="@color/transparent"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/transparent"
+        android:orientation="vertical">
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp">
+
+            <ImageView
+                android:id="@+id/itemImage"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:transitionName="transitionImg"
+                app:srcCompat="@drawable/logo_dark"/>
+
+            <ImageView
+                android:id="@+id/img_feature"
+                android:layout_marginTop="7dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                app:srcCompat="@drawable/ic_flag_featured" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:visibility="gone"
+                android:id="@+id/fb_favourite"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="right|top"
+                android:backgroundTint="@color/white"
+                android:baselineAlignBottom="true"
+                android:elevation="3dp"
+                app:borderWidth="0dp"
+                app:fabSize="mini"
+                app:srcCompat="@drawable/ic_heart" />
+
+
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="1dp"
+            android:orientation="horizontal">
+
+            <ovenues.com.ovenue.customviews.UserTextView
+                android:id="@+id/tvTitle"
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:layout_gravity="center"
+                android:gravity="center|left"
+                android:tag="200"
+                android:text="Title"
+                android:textColor="@color/md_grey_600"
+                android:textSize="17sp" />
+
+            <ovenues.com.ovenue.customviews.UserTextView
+                android:id="@+id/tv_pricerange"
+                android:layout_width="0dp"
+                android:layout_weight="0.8"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:maxLines="1"
+                android:tag="200"
+                android:text="$$$$"
+                android:layout_marginEnd="5dp"
+                android:textColor="@color/md_grey_700"
+                android:textSize="14dp" />
+
+
+
+
+        </LinearLayout>
+
+        <ovenues.com.ovenue.customviews.UserTextView
+            android:id="@+id/tv_addressline1"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:gravity="left|center"
+            android:maxLines="2"
+            android:tag="100"
+            android:text="address"
+            android:drawableLeft="@drawable/ic_map_grey_verysmall"
+            android:drawablePadding="5dp"
+            android:textColor="@color/md_grey_700"
+            android:textSize="12dp" />
+
+
+        <LinearLayout
+            android:id="@+id/ll_Yelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="1dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+
+
+            <ImageView
+                android:id="@+id/img_rating"
+                android:layout_marginEnd="2dp"
+                android:layout_width="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_marginBottom="1dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/ic_launcher" />
+
+            <ovenues.com.ovenue.customviews.UserTextView
+                android:id="@+id/tv_yelpcount"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:gravity="left|center"
+                android:maxLines="2"
+                android:tag="100"
+                android:text=""
+                android:textColor="@color/md_grey_700"
+                android:textSize="10dp" />
+
+
+            <ImageView
+                android:id="@+id/img_yelp"
+                android:layout_marginEnd="2dp"
+                android:layout_width="15dp"
+                android:scaleType="fitXY"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_social_yelp" />
+
+
+        </LinearLayout>
+
+        <ovenues.com.ovenue.customviews.UserTextView
+            android:id="@+id/tv_cuisines"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_gravity="center"
+            android:gravity="left|center"
+            android:tag="200"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="2dp"
+            android:drawablePadding="10dp"
+            android:text="cusines"
+            android:drawableLeft="@drawable/ic_restaurant_black_24dp"
+            android:textColor="@color/md_grey_600"
+            android:textSize="12sp" />
+
+        </LinearLayout>
+
+</LinearLayout>

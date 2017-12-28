@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="ovenues.com.ovenue.VenueRequestQuoteForm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+                <ovenues.com.ovenue.customviews.UserEditText
+                    android:id="@+id/et_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rounded_corner_orange_borde"
+                    android:hint="Date"
+                    android:gravity="center"
+                    android:inputType="date"
+                    android:tag="100"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="true"
+                    android:drawableRight="@drawable/ic_calander_grey"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <ovenues.com.ovenue.customviews.UserEditText
+                    android:id="@+id/et_start_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/rounded_corner_orange_borde"
+                    android:hint="Start Time"
+                    android:inputType="date"
+                    android:tag="100"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:padding="10dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="true"
+                    android:drawableRight="@drawable/ic_clock_grey"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <ovenues.com.ovenue.customviews.UserEditText
+                    android:id="@+id/et_end_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/rounded_corner_orange_borde"
+                    android:hint="End Time"
+                    android:inputType="date"
+                    android:tag="100"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:padding="10dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="true"
+                    android:drawableRight="@drawable/ic_clock_grey"/>
+            </android.support.design.widget.TextInputLayout>
+
+        </TableRow>
+
+        <ovenues.com.ovenue.customviews.UserTextView
+            android:id="@+id/tv_eventType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:tag="300"
+            android:text="Event Type "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/rounded_corner_orange_borde"
+            android:id="@+id/sp_eventtype"
+            android:drawSelectorOnTop="true"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <ovenues.com.ovenue.customviews.UserEditText
+                android:id="@+id/et_guestCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_corner_orange_borde"
+                android:hint="Guest Count"
+                android:maxLength="5"
+                android:gravity="left|center"
+                android:inputType="number"
+                android:tag="100"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:paddingLeft="20dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:focusableInTouchMode="true"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <ovenues.com.ovenue.customviews.UserEditText
+                android:id="@+id/et_description"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center|top"
+                android:background="@drawable/rounded_corner_orange_borde"
+                android:hint="Description"
+                android:gravity="left|top"
+                android:imeOptions="actionNone"
+                android:inputType="textImeMultiLine"
+                android:tag="100"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:focusableInTouchMode="true"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/cb_terms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:textSize="17sp"
+            android:buttonTint="@color/black"
+            android:text="Accept Terms &amp; Conditions"/>
+
+        <ovenues.com.ovenue.customviews.UserTextView
+            android:id="@+id/tv_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:tag="300"
+            android:text="SUBMIT"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:background="@drawable/rounded_corner_white"/>
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

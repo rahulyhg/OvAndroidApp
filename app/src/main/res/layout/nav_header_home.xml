@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:background="@drawable/bg_nav_header"
+            app:srcCompat="@drawable/ic_logo_only_name"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true">
+
+
+
+
+        <ImageView
+            android:id="@+id/img_user"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_user_photo_avatart"/>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="top|center"
+                android:layout_marginEnd="5dp"
+                android:paddingLeft="5dp"
+                android:gravity="center">
+
+
+                <ovenues.com.ovenue.customviews.UserTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:textSize="17sp"
+                    android:textColor="@color/colorAccent"
+                    android:tag="100"
+                    android:drawableEnd="@android:drawable/ic_menu_edit"
+                    android:gravity="top|left" />
+
+
+
+
+                <ovenues.com.ovenue.customviews.UserTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NAME "
+                    android:textSize="17sp"
+                    android:textColor="@color/colorPrimary"
+                    android:tag="200"
+                    android:gravity="bottom|left"
+                    android:id="@+id/tv_name" />
+
+                <ovenues.com.ovenue.customviews.UserTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="E-Mail"
+                    android:id="@+id/tv_email"
+                    android:gravity="left"
+                    android:textSize="14sp"
+                    android:textColor="@color/md_grey_600"
+                    android:tag="100"
+                    android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+
+            <!--  <ImageView
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:src="@android:drawable/ic_menu_edit"
+                  android:layout_height="match_parent" />-->
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_nav_neader_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true">
+
+        <ovenues.com.ovenue.customviews.UserTextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:id="@+id/tv_login"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:background="@drawable/rounded_corner_orange_white_borde"
+            android:textColor="@color/white"
+            android:tag="100"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="match_parent" />
+
+        <ovenues.com.ovenue.customviews.UserTextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Sign Up"
+            android:id="@+id/tv_signup"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:background="@drawable/rounded_corner_orange_white_borde"
+            android:textColor="@color/white"
+            android:tag="100"/>
+
+    </LinearLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/md_grey_600"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

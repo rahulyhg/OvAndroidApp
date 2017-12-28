@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+         <ovenues.com.ovenue.customviews.UserTextView
+             android:id="@+id/tv_perplate"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="right"
+             android:layout_marginTop="1dp"
+             android:gravity="right|bottom"
+             android:tag="300"
+             android:text="*per plate"
+             android:textColor="@color/md_grey_700"
+             android:textSize="12sp"
+             android:layout_marginRight="5dp"/>
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+             <ovenues.com.ovenue.customviews.UserTextView
+                 android:tag="300"
+                 android:visibility="gone"
+                 android:id="@+id/tv_srNo"
+                 android:background="@drawable/rounded_corner_orange_white_borde"
+                 android:layout_width="0dp"
+                 android:layout_height="35dp"
+                 android:layout_gravity="top|center"
+                 android:gravity="top|center"
+                 android:padding="5dp"
+                 android:layout_marginLeft="1dp"
+                 android:textColor="@color/white"
+                 android:textSize="15sp"
+                 android:layout_weight="0.2" />
+
+             <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center"
+                android:gravity="top|center"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+            <ovenues.com.ovenue.customviews.UserTextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="100"
+                android:text="Title"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:visibility="gone"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/md_grey_300" />
+
+            <ovenues.com.ovenue.customviews.UserTextView
+                android:id="@+id/tv_course_totalcount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:gravity="left|center"
+                android:tag="300"
+                android:text="courses"
+                android:textColor="@color/md_grey_700"
+                android:textSize="12sp" />
+
+
+
+        </LinearLayout>
+
+             <ovenues.com.ovenue.customviews.UserTextView
+                 android:id="@+id/tv_price"
+                 android:visibility="gone"
+                 android:layout_width="0dp"
+                 android:layout_height="35dp"
+                 android:layout_gravity="top|center"
+                 android:layout_weight="0.2"
+                 android:gravity="top|center"
+                 android:maxLength="5"
+                 android:maxLines="1"
+                 android:tag="300"
+                 android:text="price"
+                 android:textColor="@color/md_grey_700"
+                 android:textSize="19sp" />
+
+         </LinearLayout>
+
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="right|center"
+             android:gravity="right|center"
+             android:orientation="horizontal"
+             android:layout_marginTop="3dp"
+             android:layout_marginLeft="2dp"
+             android:layout_marginRight="2dp">
+
+
+             <ovenues.com.ovenue.customviews.UserTextView
+                 android:id="@+id/tv_ext_person"
+                 android:layout_width="0dp"
+                 android:layout_weight="0.5"
+                 android:layout_height="match_parent"
+                 android:layout_gravity="center|right"
+                 android:gravity="center"
+                 android:tag="300"
+                 android:text="Qty :"
+                 android:textColor="@color/colorPrimaryDark"
+                 android:textSize="19sp" />
+
+             <com.michaelmuenzer.android.scrollablennumberpicker.ScrollableNumberPicker
+                 android:id="@+id/np_itemcount"
+                 android:layout_width="0dp"
+                 android:layout_weight="1.35"
+                 android:layout_height="match_parent"
+                 android:layout_gravity="left"
+                 android:gravity="left"
+                 app:snp_buttonBackgroundTintSelector="@color/btn_tint_selector_main"
+                 app:snp_buttonIconLeft="@drawable/ic_remove_circle_outline_black_24dp"
+                 app:snp_buttonIconRight="@drawable/ic_add_circle_outline_black_24dp"
+                 app:snp_minValue="0"
+                 app:snp_orientation="horizontal"
+                 app:snp_scrollEnabled="true"
+                 app:snp_stepSize="1"
+                 app:snp_updateInterval="1"
+                 app:snp_value="0"
+                 app:snp_valueMarginEnd="15dp"
+                 app:snp_valueMarginStart="15dp"
+                 app:snp_value_text_color="@color/white"
+                 app:snp_value_text_size="25sp" />
+
+             <ovenues.com.ovenue.customviews.UserTextView
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight="0.2"
+                 android:gravity="right|center"
+                 android:maxLines="1"
+                 android:tag="300"
+                 android:text=" X "
+                 android:textColor="@color/md_grey_600"
+                 android:textSize="15sp" />
+
+             <ovenues.com.ovenue.customviews.UserTextView
+                 android:id="@+id/tv_price_copy"
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight="1"
+                 android:gravity="right|center"
+                 android:layout_gravity="right|center"
+                 android:maxLines="1"
+                 android:tag="300"
+                 android:text=""
+                 android:textColor="@color/colorAccent"
+                 android:textSize="30sp" />
+
+         </LinearLayout>
+
+         <ovenues.com.ovenue.customviews.UserTextView
+             android:id="@+id/tv_price_total"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="2dp"
+             android:gravity="right"
+             android:layout_marginRight="2dp"
+             android:maxLines="1"
+             android:tag="300"
+             android:text=""
+             android:textColor="@color/md_grey_700"
+             android:textSize="21sp" />
+
+
+     </LinearLayout>

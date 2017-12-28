@@ -1,0 +1,380 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:background="#F7F9F9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/profile_icon"
+            android:layout_height="150dp"/>
+
+
+
+        <Button
+            android:id="@+id/btn_bookings"
+            android:tag="100"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_corner_orange_white_borde"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:text="  My Bookings  "/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:orientation="horizontal">
+
+        <ovenues.com.ovenue.customviews.UserTextView
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:tag="100"
+            android:gravity="left|center"
+            android:layout_gravity="right|center"
+            android:textSize="12sp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"
+            android:text="Name"/>
+
+        <ovenues.com.ovenue.customviews.UserTextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="100"
+            android:gravity="left|center"
+            android:layout_gravity="right|center"
+            android:textSize="15sp"
+            android:textColor="@color/colorAccent"
+            android:text=":"/>
+
+        <ovenues.com.ovenue.customviews.UserEditText
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:inputType="text"
+            android:ems="10"
+            android:tag="100"
+            android:gravity="left|center"
+            android:layout_gravity="left|center"
+            android:textSize="12sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/transparent"
+            android:focusable="true"
+            android:maxLength="50"
+            android:lines="1"
+            android:hint="Name"
+            android:textColor="@color/black"
+            android:id="@+id/et_username"
+            android:enabled="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:orientation="horizontal">
+
+        <ovenues.com.ovenue.customviews.UserTextView
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:tag="100"
+            android:gravity="left|center"
+            android:layout_gravity="right|center"
+            android:textSize="12sp"
+            android:textColor="@color/colorAccent"
+            android:textAllCaps="true"
+            android:text="Email"/>
+
+        <ovenues.com.ovenue.customviews.UserTextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="100"
+            android:gravity="left|center"
+            android:layout_gravity="right|center"
+            android:textSize="15sp"
+            android:textColor="@color/colorAccent"
+            android:text=":"/>
+
+
+        <ovenues.com.ovenue.customviews.UserEditText
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:inputType="text"
+            android:ems="10"
+            android:tag="100"
+            android:gravity="left|center"
+            android:layout_gravity="left|center"
+            android:textSize="12sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/transparent"
+            android:focusable="true"
+            android:maxLength="50"
+            android:lines="1"
+            android:hint="E-mail"
+            android:textColor="@color/black"
+            android:id="@+id/et_email"
+            android:enabled="false" />
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:orientation="horizontal">
+
+        <ovenues.com.ovenue.customviews.UserTextView
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:tag="100"
+            android:gravity="left|center"
+            android:layout_gravity="right|center"
+            android:textSize="12sp"
+            android:textColor="@color/colorAccent"
+            android:textAllCaps="true"
+            android:text="Contact Number"/>
+
+        <ovenues.com.ovenue.customviews.UserTextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="100"
+            android:gravity="left|center"
+            android:layout_gravity="right|center"
+            android:textSize="15sp"
+            android:textColor="@color/colorAccent"
+            android:text=":"/>
+
+        <ovenues.com.ovenue.customviews.UserEditText
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:inputType="text"
+            android:ems="10"
+            android:tag="100"
+            android:gravity="left|center"
+            android:layout_gravity="left|center"
+            android:textSize="12sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/transparent"
+            android:focusable="true"
+            android:maxLength="50"
+            android:lines="1"
+            android:hint="Contact Number"
+            android:textColor="@color/black"
+            android:id="@+id/et_contact_number"
+            android:enabled="false" />
+
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal">
+
+            <ovenues.com.ovenue.customviews.UserTextView
+                android:padding="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="wrap_content"
+                android:tag="100"
+                android:gravity="left|center"
+                android:layout_gravity="right|center"
+                android:textSize="12sp"
+                android:textColor="@color/colorAccent"
+                android:textAllCaps="true"
+                android:text="Password"/>
+
+            <ovenues.com.ovenue.customviews.UserTextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="100"
+                android:gravity="left|center"
+                android:layout_gravity="right|center"
+                android:textSize="15sp"
+                android:textColor="@color/colorAccent"
+                android:text=":"/>
+
+
+            <ovenues.com.ovenue.customviews.UserEditText
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:inputType="text"
+                android:ems="10"
+                android:tag="100"
+                android:gravity="left|center"
+                android:layout_gravity="left|center"
+
+                android:textSize="12sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/transparent"
+                android:focusable="true"
+                android:maxLength="50"
+                android:lines="1"
+                android:hint="**********"
+                android:textColor="@color/black"
+                android:enabled="false" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="top"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal">
+
+            <android.support.v4.widget.Space
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="match_parent" />
+
+            <ovenues.com.ovenue.customviews.UserTextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="100"
+                android:gravity="left|center"
+                android:layout_gravity="right|center"
+                android:textSize="15sp"
+                android:textColor="@color/colorAccent"
+                android:visibility="invisible"
+                android:text=":"/>
+
+            <ovenues.com.ovenue.customviews.UserTextView
+                android:id="@+id/tv_change_pwd"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7dp"
+                android:tag="100"
+                android:textColor="@color/colorAccent"
+                android:text="Change Password ?"/>
+
+        </LinearLayout>
+
+
+
+        <ovenues.com.ovenue.customviews.UserTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="100"
+            android:gravity="left"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/colorAccent"
+            android:text="Need cancel your account?"/>
+
+        <ovenues.com.ovenue.customviews.UserTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="100"
+            android:gravity="left"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="#979696"
+            android:text="We’ll be sorry to see you go. Once your account is cancelled, all your bookings will be immediately and permanently deleted."/>
+
+
+        <Button
+            android:id="@+id/btn_cancel_ac"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_corner_white"
+            android:textColor="@color/md_grey_600"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:text=" Cancel  Account "/>
+
+       <!-- <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center">
+
+
+            <ovenues.com.ovenue.customviews.UserTextView
+                android:id="@+id/tv_signin"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:tag="100"
+                android:text="Sign In"
+                android:textAllCaps="true"
+                android:textSize="24sp"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_corner_orange_white_borde"
+                android:gravity="center"/>
+
+
+        </LinearLayout>-->
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
